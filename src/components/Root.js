@@ -8,19 +8,7 @@ export default class Root extends Component {
         return (
         <Router>
         <div>
-            {/* <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Login</Link>
-                    </li>
-                    <li>
-                        <Link to="/main">Main</Link>
-                    </li>
-                    <li>
-                        <Link to="/settings">Settings</Link>
-                    </li>
-                </ul>
-            </nav> */}
+            
             <Routes>
                 <Route path="/" exact element={ <Login /> } />
                 <Route path="/main" exact element={ <Main /> } />
